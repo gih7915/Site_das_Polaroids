@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const tipoKitSelect = document.getElementById("tipo-kit");
   const totalElement = document.getElementById("total");
   const comprarLink = document.getElementById("comprar-link");
-  const quantidade = 12; // Quantidade fixa de 12 polaroids
+  const quantidade = 19.99; // Quantidade fixa de 12 polaroids
 
   function atualizarTotal() {
     const preco = parseFloat(tipoKitSelect.value);
