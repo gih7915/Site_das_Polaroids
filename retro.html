@@ -43,25 +43,26 @@
           <h2>Preço das Polaroids</h2>
 
           <div>
-            <label for="quantidade">Quantidade de Polaroids:</label>
-            <input
-              type="number"
-              id="quantidade"
-              name="quantidade"
-              min="1"
-              value="1"
-            />
+            <label for="kit-tamanho">Tamanho do Kit:</label>
+            <select id="kit-tamanho" name="kit-tamanho">
+              <option value="10">Kit com 10</option>
+              <option value="20">Kit com 20</option>
+              <option value="30">Kit com 30</option>
+              <option value="50">Kit com 50</option>
+              <option value="70">Kit com 70</option>
+              <option value="100">Kit com 100</option>
+            </select>
           </div>
           <div>
             <label for="tipo-kit">Tipo de kit:</label>
             <select id="tipo-kit" name="tipo-kit">
-              <option value="1.2">Somente as fotos</option>
-              <option value="1.35">Fotos + ímã</option>
-              <option value="1.4">Fotos + mini-pregadores</option>
+              <option value="1">Somente as fotos</option>
+              <option value="1.1">Fotos + ímã</option>
+              <option value="1.2">Fotos + mini-pregadores</option>
             </select>
           </div>
           <p>
-            <strong>Total: R$ <span id="total">1,40</span></strong>
+            <strong>Total: R$ <span id="total">12.00</span></strong>
           </p>
           <p>
             <strong>Entrega:</strong> Grátis para os condomínios Parque Clube 1,
